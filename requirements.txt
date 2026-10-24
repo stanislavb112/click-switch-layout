@@ -1,0 +1,4 @@
+click>=8.1.7
+pyperclip>=1.11.0
+sqlalchemy>=2.0.52
+pytest>=9.1.1

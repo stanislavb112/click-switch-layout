@@ -1,0 +1,21 @@
+[project]
+name = "switch_layout"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.7",
+    "pyperclip>=1.11.0",
+    "sqlalchemy>=2.0.52",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+switch_layout = "switch_layout:cli"
+greet = "greet:greet"
+temperature = "temperature:temperature"
+
+[tool.setuptools]
+py-modules = ["switch_layout", "greet", "temperature"]
